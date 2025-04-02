@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bom serialNumber="urn:uuid:b5ab69e5-1771-3c31-adde-ca058b545f5d" version="1" xmlns="http://cyclonedx.org/schema/bom/1.5">
+  <metadata>
+    <timestamp>2025-03-20T09:42:36Z</timestamp>
+    <lifecycles>
+      <lifecycle>
+        <phase>build</phase>
+      </lifecycle>
+    </lifecycles>
+    <tools>
+      <components>
+        <component type="library">
+          <author>OWASP Foundation</author>
+          <group>org.cyclonedx</group>
+          <name>cyclonedx-maven-plugin</name>
+          <version>2.8.1</version>
+          <description>CycloneDX Maven plugin</description>
+          <hashes>
+            <hash alg="MD5">42c73e70d517b359d40b757c368d68fc</hash>
+            <hash alg="SHA-1">c66892e13fb7ed7b8105cb5a280fa767d9e0bf12</hash>
+            <hash alg="SHA-256">566681b9fcb1b0178e101cd899d2ea399e2039255e208a1a477bc079158dbdc5</hash>
+            <hash alg="SHA-512">93d7b7421ee2d91f84930e75a52864952f26fee96114740dab477ee5f0e62b6448759ad5a160f1749650379f771941100c7fd84ed523b2407d2004b928998ecb</hash>
+            <hash alg="SHA-384">04b0c71c1b79f77e723e7db96c72705f50172e94df5a7f28edbd96024b886fff65f61f37fc77abb1d12b0809813ae665</hash>
+            <hash alg="SHA3-384">eafa68c2c25670f0b77c5db3acdfd97cfe97dfc50c47bba2103353327b049b9bbac0d8b621b1168200ddf21719048c73</hash>
+            <hash alg="SHA3-256">2c07b6997ba0e40ca3b66e39cfcf101fcebdceaa19fce0baf12e013cf392466e</hash>
+            <hash alg="SHA3-512">636f068843bad92259885cd4d427630619864c0172bd1b41df15c33a7d411767ab09cf2ff339a97fda149ee44c95a162fdf6cb12de19e2dc0250c2fadc80d882</hash>
+          </hashes>
+        </component>
+      </components>
+    </tools>
+    <component type="library" bom-ref="pkg:maven/com.example/simple-calculator@1.0-SNAPSHOT?type=jar">
+      <group>com.example</group>
+      <name>simple-calculator</name>
+      <version>1.0-SNAPSHOT</version>
+      <licenses/>
+      <purl>pkg:maven/com.example/simple-calculator@1.0-SNAPSHOT?type=jar</purl>
+    </component>
+    <properties>
+      <property name="maven.goal">makeAggregateBom</property>
+      <property name="maven.scopes">compile,provided,runtime,system,test</property>
+    </properties>
+  </metadata>
+  <components>
+    <component type="library" bom-ref="pkg:maven/org.junit.jupiter/junit-jupiter@5.10.2?type=jar">
+      <group>org.junit.jupiter</group>
+      <name>junit-jupiter</name>
+      <version>5.10.2</version>
+      <description>Module "junit-jupiter" of JUnit 5.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">74440a4d6c038ccfe822debfa779a9fd</hash>
+        <hash alg="SHA-1">831c0b86ddc2ce38391c5b81ea662b0cfdc02cce</hash>
+        <hash alg="SHA-256">263e43447f4b40f126ad6b1dcbd7df379448413bdedb8e0d240c5bcbba7c7a4f</hash>
+        <hash alg="SHA-512">d10edf43b62c5947b50c506e84d65829138970acd6a85c066d7c6ca192477bed197af77866f6b18ea7b8ebc8a1a16666dc7982a967533079e8927a65aa3b484d</hash>
+        <hash alg="SHA-384">95f57bca7cd4a7aac1f61512fecfe589a11899b6dfd078799199d49f67c8e4994ed535c8cfec5926a1d268f07131934a</hash>
+        <hash alg="SHA3-384">7bbb2cbfa394b688c7114f0e2b48d3fb691fadd815058ad4ab5f014610a803088e737e32115715d54f12c9817eba7e20</hash>
+        <hash alg="SHA3-256">80db7332d1d4c805df1731295415eeb78efd69b6ac716108c058c4c58c918d11</hash>
+        <hash alg="SHA3-512">489f5f58ab03be0b2841370e12c361487798fce1414f12cebbab736ae22b9cb191ac36ee22c1bb4eac4b6405b3e38defef1efa7020dfe2c92a42afe4b9c3b9f4</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>EPL-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.junit.jupiter/junit-jupiter@5.10.2?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://junit.org/junit5/</url></reference><reference type="vcs"><url>https://github.com/junit-team/junit5</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.junit.jupiter/junit-jupiter-api@5.10.2?type=jar">
+      <group>org.junit.jupiter</group>
+      <name>junit-jupiter-api</name>
+      <version>5.10.2</version>
+      <description>Module "junit-jupiter-api" of JUnit 5.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">6e691e23a36de8cbda5cbcc9f31461e3</hash>
+        <hash alg="SHA-1">fb55d6e2bce173f35fd28422e7975539621055ef</hash>
+        <hash alg="SHA-256">afff77c186cd317275803872fa5133aa801fd6ac40bd91c78a6cf8009b4b17cc</hash>
+        <hash alg="SHA-512">7dfb74405cc011bf0b9176f2093686680225ef32658ec82b55bad9857eb38999b8ac25c23f920127b426120bfc20938f2d9dc8df111a509d9858d350e5ff7685</hash>
+        <hash alg="SHA-384">5ef5590ce923e0e5b33e821e1ef650ff30be70433fdd03ab0986ad68f71e18a804c43a8736e5ee619b676218de4d6142</hash>
+        <hash alg="SHA3-384">dfe5609aa1e95c4156fe2f0143ffb9d327d734a372ccccaca1d2d307b370fb79c5eacc8f228f90d5382f64cd0508447e</hash>
+        <hash alg="SHA3-256">db3d74ba82ebe3eed0779121c694d3f40932c8c6f1f5985ec0187ebc6af6cfde</hash>
+        <hash alg="SHA3-512">43cf8157d2de72a4fbbd6c0f92adb32d9454e3b1e32667d11b98916a3310f0835a0a38766ac0e56387e87e916fc4d18cd6b953150e404bc05a743605be90250c</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>EPL-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.junit.jupiter/junit-jupiter-api@5.10.2?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://junit.org/junit5/</url></reference><reference type="vcs"><url>https://github.com/junit-team/junit5</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.opentest4j/opentest4j@1.3.0?type=jar">
+      <group>org.opentest4j</group>
+      <name>opentest4j</name>
+      <version>1.3.0</version>
+      <description>Open Test Alliance for the JVM</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">03c404f727531f3fd3b4c73997899327</hash>
+        <hash alg="SHA-1">152ea56b3a72f655d4fd677fc0ef2596c3dd5e6e</hash>
+        <hash alg="SHA-256">48e2df636cab6563ced64dcdff8abb2355627cb236ef0bf37598682ddf742f1b</hash>
+        <hash alg="SHA-512">78fc698a7871bb50305e3657893c10500595f043348d875f57bc39ca4a6a51eda3967b7c8c8a7ec3e8f85f2171bca4aa98823e912e416e87e81c6ba5b70a37c3</hash>
+        <hash alg="SHA-384">10398b6998c9202a0731e2e19ae1c3f9d8a83582c2663fe7bdda15794ee6fa816727dbd8f7c7164bd5395ee1cfe7c97e</hash>
+        <hash alg="SHA3-384">3abe706fd78509c25a402c7bbf6f9ddf71ffb5b35054864ba0fdf7902207115f888a0ba728fd71d2e87a9360d2498121</hash>
+        <hash alg="SHA3-256">d961907a1bfa1dcda329dca494ffbc251b31fabcaca5ab7095661a8ce3c1d654</hash>
+        <hash alg="SHA3-512">0ad661617bcac51bcd26f7ad4611c69b1fd9811b50dbf734e041a3243ab1f845e7796620e8a7c40c4a2df3946864598b1251396c7d9bd813203d82710788cce0</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.opentest4j/opentest4j@1.3.0?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://github.com/ota4j-team/opentest4j</url></reference><reference type="vcs"><url>https://github.com/ota4j-team/opentest4j</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.junit.platform/junit-platform-commons@1.10.2?type=jar">
+      <group>org.junit.platform</group>
+      <name>junit-platform-commons</name>
+      <version>1.10.2</version>
+      <description>Module "junit-platform-commons" of JUnit 5.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">ae199049daca42c359e64974009025c5</hash>
+        <hash alg="SHA-1">3197154a1f0c88da46c47a9ca27611ac7ec5d797</hash>
+        <hash alg="SHA-256">b56a5ec000a479df4973b18bba24c98fe0db8faa14c8907d3ef451d8c71fd8ae</hash>
+        <hash alg="SHA-512">aa739ee21b91fd4476aa5f9ad975f83cd440b6fbac71c8cc15816e3924710c0d70838465ee22a1b7390c2bae42ef1809868fa7ae0169b75f437cd95baac539d1</hash>
+        <hash alg="SHA-384">0963ac9cf11f6312a807b4068dacd66cab7f6378445b4dc2cfd62b62dd7afe609fe389aff4fd2006cdcc564670e849af</hash>
+        <hash alg="SHA3-384">64688f7803aff2ac8d536c5f9e11891f6b5bfae23580b2513ff4fde3c1f28509a27c483e91fd974e1fbca4a7cbaf3f87</hash>
+        <hash alg="SHA3-256">83d491a6808587990e165c5065a7c938760065248083d9d05e81d9e4802d7764</hash>
+        <hash alg="SHA3-512">1d54bed73766715b245012bce223e440703ff2fb8c7d5cfd208393060c2d63178e69e21aa739e5196599dcd1a79decf595cf142abc34ade6bd45a2b1d269f724</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>EPL-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.junit.platform/junit-platform-commons@1.10.2?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://junit.org/junit5/</url></reference><reference type="vcs"><url>https://github.com/junit-team/junit5</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apiguardian/apiguardian-api@1.1.2?type=jar">
+      <group>org.apiguardian</group>
+      <name>apiguardian-api</name>
+      <version>1.1.2</version>
+      <description>@API Guardian</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">8c7de3f82037fa4a2e8be2a2f13092af</hash>
+        <hash alg="SHA-1">a231e0d844d2721b0fa1b238006d15c6ded6842a</hash>
+        <hash alg="SHA-256">b509448ac506d607319f182537f0b35d71007582ec741832a1f111e5b5b70b38</hash>
+        <hash alg="SHA-512">d7ccd0e7019f1a997de39d66dc0ad4efe150428fdd7f4c743c93884f1602a3e90135ad34baea96d5b6d925ad6c0c8487c8e78304f0a089a12383d4a62e2c9a61</hash>
+        <hash alg="SHA-384">5ae11cfedcee7da43a506a67946ddc8a7a2622284a924ba78f74541e9a22db6868a15f5d84edb91a541e38afded734ea</hash>
+        <hash alg="SHA3-384">c146116b3dfd969200b2ce52d96b92dd02d6f5a45a86e7e85edf35600ddbc2f3c6e8a1ad7e2db4dcd2c398c09fad0927</hash>
+        <hash alg="SHA3-256">b4b436d7f615fc0b820204e69f83c517d1c1ccc5f6b99e459209ede4482268de</hash>
+        <hash alg="SHA3-512">7b95b7ac68a6891b8901b5507acd2c24a0c1e20effa63cd513764f513eab4eb55f8de5178edbe0a400c11f3a18d3f56243569d6d663100f06dd98288504c09c5</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apiguardian/apiguardian-api@1.1.2?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://github.com/apiguardian-team/apiguardian</url></reference><reference type="vcs"><url>https://github.com/apiguardian-team/apiguardian</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.junit.jupiter/junit-jupiter-params@5.10.2?type=jar">
+      <group>org.junit.jupiter</group>
+      <name>junit-jupiter-params</name>
+      <version>5.10.2</version>
+      <description>Module "junit-jupiter-params" of JUnit 5.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">2f33df4bff7fbfb15352803fa575b88d</hash>
+        <hash alg="SHA-1">359132c82a9d3fa87a325db6edd33b5fdc67a3d8</hash>
+        <hash alg="SHA-256">edb1e43ff0b8067626ffb55e5e9eeca1d9ab2478141a7c7f253d115b29cc7cf2</hash>
+        <hash alg="SHA-512">002b2010769413f1bc86cf95a48f679eeb7a372379e8f401f892d03bd1089483937a77f08c095579f81b8f0a27896fac6bebdc4c09a2dff9f5459e09207ac0d8</hash>
+        <hash alg="SHA-384">f026f977c21b4d19611ea2ac8a18cb7c6110787241fd47f650557e427db0289aadd12a1069b46e73cb807bf45bb69455</hash>
+        <hash alg="SHA3-384">210369e1ccd3a70a0b4fd785777367994414163361ed9d9c449b0b2364dd43122579d48ebb8feb923548c8f43eb74067</hash>
+        <hash alg="SHA3-256">3714beec66c923801a378969a1d370a43761a5f18e86e26c8161763ad19adb69</hash>
+        <hash alg="SHA3-512">edcd46e165d048ad49e023c1a71d14b9046c8dd1be20f908b63bde859dad2c76e6b84e8c100ca0e17008f22c3cddd1b4d427b7c4041e6cceea559ef707cfd024</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>EPL-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.junit.jupiter/junit-jupiter-params@5.10.2?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://junit.org/junit5/</url></reference><reference type="vcs"><url>https://github.com/junit-team/junit5</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.junit.jupiter/junit-jupiter-engine@5.10.2?type=jar">
+      <group>org.junit.jupiter</group>
+      <name>junit-jupiter-engine</name>
+      <version>5.10.2</version>
+      <description>Module "junit-jupiter-engine" of JUnit 5.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">830301d576c574fbf82320f93f8abacd</hash>
+        <hash alg="SHA-1">f1f8fe97bd58e85569205f071274d459c2c4f8cd</hash>
+        <hash alg="SHA-256">b6df35da750a546ae932376f11b3c0df841f0c90c7cb2944cd39adb432886e4b</hash>
+        <hash alg="SHA-512">0a95745a7d7b7d1cc4974e946cb0ab2696d7739ec1cee8545a34d6f14e63f065d06ab1363e4fc1b588d5197107f9ffc42537bebcd7b10a945fae316e5fdbc103</hash>
+        <hash alg="SHA-384">e25eda0e686e407053368c09ae28fb95a229d88cedcfa674b74397979f0c7ff36cb410b64c71aef2dda037a5fde2bfcc</hash>
+        <hash alg="SHA3-384">ac6c8e106d16838f365f701a9fd768f30cd312c903ff117d060383a04043daa92645fb0544917aacd5f116d6272b7e64</hash>
+        <hash alg="SHA3-256">70d7684eb70992e6a66da5df9bbf23c938f49ec2883320ae57d69930d26a03a3</hash>
+        <hash alg="SHA3-512">090afd1efec0951d4b8dd870afedf5967281e3e9adad0cb0974d9b06a1c2d9740e102d47f2a0d46013ae65515ba97fbed29083ab4aac84d47b2d0b36fa6204b1</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>EPL-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.junit.jupiter/junit-jupiter-engine@5.10.2?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://junit.org/junit5/</url></reference><reference type="vcs"><url>https://github.com/junit-team/junit5</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.junit.platform/junit-platform-engine@1.10.2?type=jar">
+      <group>org.junit.platform</group>
+      <name>junit-platform-engine</name>
+      <version>1.10.2</version>
+      <description>Module "junit-platform-engine" of JUnit 5.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">0bab6a13692441a957234370baae15f0</hash>
+        <hash alg="SHA-1">d53bb4e0ce7f211a498705783440614bfaf0df2e</hash>
+        <hash alg="SHA-256">905cba9b4998ccc29d1239085a7fb1fe0e28024d7526152356d810edec0a49a3</hash>
+        <hash alg="SHA-512">5ca468aff73099673266e4e1431189023b0a660292f4f6c101dc4b03b8ab3643392731aa55455bf3a5079331a563dacda0c6b3cf3df64563ca6e0201af609e27</hash>
+        <hash alg="SHA-384">7e883fc0a9cd5f3d6a792f26a43eddbe1e8e6583cedfba48690679ca43bf46482967c6e5a91c9b32f8904eaa54b7b759</hash>
+        <hash alg="SHA3-384">25d922124644f344ec96487622c34c0e853c7a6a70858a3fae3572b0c03d7b7fec4f297f66d37311f87dcdf7c3c58f18</hash>
+        <hash alg="SHA3-256">90615525738990e5226ec73729c052cb9ee2a8212b263c3214d71fcb28c41118</hash>
+        <hash alg="SHA3-512">3cbd7d8afa9f1953fef49c010f04f47b286f0cc40ddc3766928801202cf08539919f4018ece569c251d198a1a6e3258bc48d4b2facd2bb7f2d5d675fc34c7dff</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>EPL-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.junit.platform/junit-platform-engine@1.10.2?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://junit.org/junit5/</url></reference><reference type="vcs"><url>https://github.com/junit-team/junit5</url></reference></externalReferences>
+    </component>
+  </components>
+  <dependencies>
+    <dependency ref="pkg:maven/com.example/simple-calculator@1.0-SNAPSHOT?type=jar">
+      <dependency ref="pkg:maven/org.junit.jupiter/junit-jupiter@5.10.2?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/org.junit.jupiter/junit-jupiter@5.10.2?type=jar">
+      <dependency ref="pkg:maven/org.junit.jupiter/junit-jupiter-api@5.10.2?type=jar"/>
+      <dependency ref="pkg:maven/org.junit.jupiter/junit-jupiter-params@5.10.2?type=jar"/>
+      <dependency ref="pkg:maven/org.junit.jupiter/junit-jupiter-engine@5.10.2?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/org.junit.jupiter/junit-jupiter-api@5.10.2?type=jar">
+      <dependency ref="pkg:maven/org.opentest4j/opentest4j@1.3.0?type=jar"/>
+      <dependency ref="pkg:maven/org.junit.platform/junit-platform-commons@1.10.2?type=jar"/>
+      <dependency ref="pkg:maven/org.apiguardian/apiguardian-api@1.1.2?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/org.opentest4j/opentest4j@1.3.0?type=jar"/>
+    <dependency ref="pkg:maven/org.junit.platform/junit-platform-commons@1.10.2?type=jar">
+      <dependency ref="pkg:maven/org.apiguardian/apiguardian-api@1.1.2?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/org.apiguardian/apiguardian-api@1.1.2?type=jar"/>
+    <dependency ref="pkg:maven/org.junit.jupiter/junit-jupiter-params@5.10.2?type=jar">
+      <dependency ref="pkg:maven/org.junit.jupiter/junit-jupiter-api@5.10.2?type=jar"/>
+      <dependency ref="pkg:maven/org.apiguardian/apiguardian-api@1.1.2?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/org.junit.jupiter/junit-jupiter-engine@5.10.2?type=jar">
+      <dependency ref="pkg:maven/org.junit.platform/junit-platform-engine@1.10.2?type=jar"/>
+      <dependency ref="pkg:maven/org.junit.jupiter/junit-jupiter-api@5.10.2?type=jar"/>
+      <dependency ref="pkg:maven/org.apiguardian/apiguardian-api@1.1.2?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/org.junit.platform/junit-platform-engine@1.10.2?type=jar">
+      <dependency ref="pkg:maven/org.opentest4j/opentest4j@1.3.0?type=jar"/>
+      <dependency ref="pkg:maven/org.junit.platform/junit-platform-commons@1.10.2?type=jar"/>
+      <dependency ref="pkg:maven/org.apiguardian/apiguardian-api@1.1.2?type=jar"/>
+    </dependency>
+  </dependencies>
+</bom>
