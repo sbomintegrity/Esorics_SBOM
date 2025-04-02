@@ -1,0 +1,17 @@
+/home/can/HelloDotNet/bin/Debug/net8.0/HelloDotNet
+/home/can/HelloDotNet/bin/Debug/net8.0/HelloDotNet.deps.json
+/home/can/HelloDotNet/bin/Debug/net8.0/HelloDotNet.runtimeconfig.json
+/home/can/HelloDotNet/bin/Debug/net8.0/HelloDotNet.dll
+/home/can/HelloDotNet/bin/Debug/net8.0/HelloDotNet.pdb
+/home/can/HelloDotNet/bin/Debug/net8.0/Newtonsoft.Json.dll
+/home/can/HelloDotNet/obj/Debug/net8.0/HelloDotNet.csproj.AssemblyReference.cache
+/home/can/HelloDotNet/obj/Debug/net8.0/HelloDotNet.GeneratedMSBuildEditorConfig.editorconfig
+/home/can/HelloDotNet/obj/Debug/net8.0/HelloDotNet.AssemblyInfoInputs.cache
+/home/can/HelloDotNet/obj/Debug/net8.0/HelloDotNet.AssemblyInfo.cs
+/home/can/HelloDotNet/obj/Debug/net8.0/HelloDotNet.csproj.CoreCompileInputs.cache
+/home/can/HelloDotNet/obj/Debug/net8.0/HelloDot.AAA685E8.Up2Date
+/home/can/HelloDotNet/obj/Debug/net8.0/HelloDotNet.dll
+/home/can/HelloDotNet/obj/Debug/net8.0/refint/HelloDotNet.dll
+/home/can/HelloDotNet/obj/Debug/net8.0/HelloDotNet.pdb
+/home/can/HelloDotNet/obj/Debug/net8.0/HelloDotNet.genruntimeconfig.cache
+/home/can/HelloDotNet/obj/Debug/net8.0/ref/HelloDotNet.dll
